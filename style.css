@@ -104,8 +104,8 @@ ul {
 .btn:hover {
   transform: scale(1.05);
 }
-.shadow-dark{
-  box-shadow: 0 0 20px rgba(48,46,77,0.15);
+.shadow-dark {
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 /* aside */
 .aside {
@@ -304,13 +304,12 @@ h3.my-profession {
 .about .about-content .about-text {
   flex: 0 0 100%;
   max-width: 100%;
-  
 }
 
-.about .about-content .about-text h3{
+.about .about-content .about-text h3 {
   font-size: 24px;
   margin-bottom: 15px;
-  font-weight:700 ;
+  font-weight: 700;
   color: var(--text-black-900);
 }
 
@@ -318,68 +317,68 @@ h3.my-profession {
   color: var(--skin-color);
 }
 
-.about .about-content .about-text p{
+.about .about-content .about-text p {
   font-size: 16px;
   line-height: 25px;
-  color:var(--text-black-700);
+  color: var(--text-black-700);
 }
- .personal-info{
+.personal-info {
   flex: 0 0 60%;
   max-width: 60%;
   margin-top: 40px;
 }
-.skills{
+.skills {
   flex: 0 0 40%;
   max-width: 40%;
-  margin-top: 40px; 
+  margin-top: 40px;
 }
- .personal-info .info-item{
+.personal-info .info-item {
   flex: 0 0 50%;
   max-width: 50%;
-  }
-.info-item p{
+}
+.info-item p {
   font-weight: 600;
   padding: 10px 0;
   font-size: 16px;
   color: var(--text-black-700);
   border-bottom: 1px solid var(--bg-black-50);
 }
-.info-item p span{
+.info-item p span {
   font-weight: 400;
   color: var(--text-black-700);
   margin-left: 12px;
   display: inline-block;
 }
-.personal-info .buttons{
+.personal-info .buttons {
   margin-top: 30px;
 }
-.personal-info .buttons .btn{
+.personal-info .buttons .btn {
   margin-right: 15px;
   margin-top: 10px;
 }
-.skills .skill-item{
+.skills .skill-item {
   flex: 0 0 100%;
-  max-width: 100%; 
+  max-width: 100%;
 }
 
-.skills .skill-item h5{
-  line-height:40px ;
+.skills .skill-item h5 {
+  line-height: 40px;
   font-weight: 600;
   font-size: 16px;
   color: var(--text-black-900);
   text-transform: capitalize;
 }
-.skills .skill-item .progress{
+.skills .skill-item .progress {
   background-color: var(--bg-black-50);
   height: 5px;
   border-radius: 4px;
   width: 100%;
   position: relative;
 }
-.skills .skill-item{
+.skills .skill-item {
   margin-bottom: 25px;
 }
-.skills .skill-item .progress .progress-in{
+.skills .skill-item .progress .progress-in {
   position: absolute;
   left: 0;
   top: 0;
@@ -387,8 +386,7 @@ h3.my-profession {
   border-radius: 4px;
   background: var(--skin-color);
 }
-.skills .skill-item .skill-percent
-{
+.skills .skill-item .skill-percent {
   position: absolute;
   right: 0;
   color: var(--text-black-900);
@@ -396,25 +394,23 @@ h3.my-profession {
   font-weight: 400;
   line-height: 40px;
 }
- .education,
- .experience{
-flex:  0 0 50%;
-max-width: 50%;
-margin-top: 30px;
-
+.education,
+.experience {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 30px;
 }
-h3.title{
+h3.title {
   font-size: 24px;
   margin-bottom: 30px;
   font-weight: 700;
   color: var(--text-black-900);
 }
-.timeline-box{
-  flex:  0 0 100%;
-max-width: 100%;
-
+.timeline-box {
+  flex: 0 0 100%;
+  max-width: 100%;
 }
-.timeline{
+.timeline {
   background-color: var(--bg-black-100);
   padding: 30px 15px;
   border-radius: 10px;
@@ -423,16 +419,15 @@ max-width: 100%;
   position: relative;
 }
 
-.timeline .timeline-item{
+.timeline .timeline-item {
   position: relative;
   padding-left: 37px;
   padding-bottom: 50px;
-
 }
-.timeline .timeline-item:last-child{
+.timeline .timeline-item:last-child {
   padding-bottom: 0;
 }
-.timeline .timeline-item::before{
+.timeline .timeline-item::before {
   content: "";
   width: 1px;
   position: absolute;
@@ -441,34 +436,89 @@ max-width: 100%;
   top: 0;
   background-color: var(--skin-color);
 }
- .about .about-content .circle-dot{
+.about .about-content .circle-dot {
   position: absolute;
   left: 0;
-  top :0;
+  top: 0;
   height: 15px;
   width: 15px;
   border-radius: 50%;
   background-color: var(--skin-color);
-} 
-.timeline .timeline-date{
+}
+.timeline .timeline-date {
   font-weight: 600;
   font-size: 14px;
   margin-bottom: 12px;
   color: var(--text-black-700);
 }
-.timeline .timeline-date .fa{
+.timeline .timeline-date .fa {
   margin-right: 5px;
 }
-.timeline .timeline-title{
+.timeline .timeline-title {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: capitalize;
   color: var(--text-black-900);
-
-}.timeline .timeline-text{
+}
+.timeline .timeline-text {
   line-height: 25px;
   font-size: 16px;
   text-align: justify;
   color: var(--text-black-700);
+}
+/* services */
+.service .container{
+  padding-bottom: 40px;
+}
+.service .service-item {
+  margin-bottom: 30px;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+.service .service-item .service-item-inner {
+  background-color: var(--bg-black-100);
+  border: 1px solid var(--bg-black-50);
+  border-radius: 12px;
+  padding: 30px 15px;
+  text-align: center;
+  transition: all 0.3S ease;
+}
+.service .service-item .service-item-inner:hover{
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.service .service-item .service-item-inner .icon{
+  height: 60px;
+  width: 60px;
+  border-radius:50%;
+  display:block ;
+  margin: 0 auto 30px;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.service .service-item .service-item-inner .icon .fa{
+  font-size: 40px;
+  line-height: 60px;
+  color: var(--skin-color);
+transition: all 0.5s ease;
+}
+.service .service-item .service-item-inner:hover .icon{
+  background: var(--skin-color);
+}
+.service .service-item .service-item-inner:hover .icon .fa{
+  font-size: 25px;
+  color: #fff;
+}
+.service .service-item .service-item-inner h4{
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: var(--text-black-900);
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.service .service-item .service-item-inner p{
+  font-size: 16px;
+  color:var(--text-black-700) ;
+  line-height:25px ;
 }
