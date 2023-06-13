@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="color-1.css" />
+    <!-- <link rel="stylesheet" href="color-1.css" /> -->
+    <link rel="stylesheet" href="style-switcher.css" />
+    <!-- <link rel="stylesheet" href="color-2.css" /> -->
+    <!-- <link rel="stylesheet" href="color-3.css" /> -->
+    <link rel="stylesheet" href="color-4.css" />
+    <!-- <link rel="stylesheet" href="color-5.css" /> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -13,31 +18,39 @@
     <title>Document</title>
   </head>
   <body>
+    
     <div class="main-container">
       <div class="aside">
         <div class="logo">
-          <a href="#"><span>M</span>ark</a>
+          <a href="#logo"><span>M.M</span>ark</a>
         </div>
         <div class="nav-toggler">
-          <span></span>
+          <!-- <span>sjhdvc</span> -->
         </div>
-        <ul class="nav">
-          <li>
-            <a href="#" class="active"><i class="fa fa-home"></i>Home</a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-user"></i>About</a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-list"></i>Services</a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-briefcase"></i>Portfolio</a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-comments"></i>Contacts</a>
-          </li>
-        </ul>
+        <nav class="nav">
+          <ul class="nav">
+            <li>
+              <a
+                href="#home"
+                class="active"
+                onclick="document.querySelector('active')"
+                ><i class="fa fa-home"></i>Home</a
+              >
+            </li>
+            <li>
+              <a href="#about"><i class="fa fa-user"></i>About</a>
+            </li>
+            <li>
+              <a href="#services"><i class="fa fa-list"></i>Services</a>
+            </li>
+            <li>
+              <a href="#potfolio"><i class="fa fa-briefcase"></i>Portfolio</a>
+            </li>
+            <li>
+              <a href="#contacts"><i class="fa fa-comments"></i>Contacts</a>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div class="main-content">
         <section class="home section">
@@ -45,7 +58,7 @@
             <div class="row">
               <div class="home-info padd-15">
                 <h3 class="hello">
-                  Hello, my name is <span class="name">Mark Mwendwa</span>
+                  Hi, I am<span class="name">Mark Mwendwa</span>
                 </h3>
                 <h3 class="my-profession">
                   I'm a <span class="typing">web developer</span>
@@ -60,10 +73,7 @@
               </div>
               <div class="home-img padd-15">
                 <!-- missing image  -->
-                <img
-                  src="https://replicate.delivery/pbxt/YRyJcq3tAqaLAloXdOWQZJ5KLeJIymMBENjRT9g4lY5mPGgIA/out.png"
-                  alt=""
-                />
+                <img src="" alt="" />
               </div>
             </div>
           </div>
@@ -195,96 +205,105 @@
         </section>
         <!-- =============About Section End   ============= -->
         <!-- ===========Services Section Start================= -->
-<section class="service section">
-  <div class="container">
-    <div class="row">
-      <div class="section-title padd-15">
-        <h2>Services</h2>
-      </div>
-    </div>
-    <div class="row">
-      <!-- ========Service Item Start======= -->
-      <div class="service-item padd-15">
-        <div class="service-item-inner">
-          <div class="icon">
-            <i class="fa fa-mobile-alt"></i>
+        <section class="service section">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Services</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- ========Service Item Start======= -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Mobile App Development</h4>
+                  <p>
+                    I specialize in creating user-friendly and innovative mobile
+                    applications for Android and iOS platforms.
+                  </p>
+                </div>
+              </div>
+              <!-- ========Service Item Start======= -->
+              <!-- ========Service Item Start======= -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-laptop-code"></i>
+                  </div>
+                  <h4>Web Development</h4>
+                  <p>
+                    I build dynamic and responsive websites using the latest web
+                    technologies to help businesses establish a strong online
+                    presence.
+                  </p>
+                </div>
+              </div>
+              <!-- ========Service Item Start======= -->
+              <!-- ========Service Item Start======= -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-code"></i>
+                  </div>
+                  <h4>Software Development</h4>
+                  <p>
+                    I offer custom software development services tailored to
+                    meet your unique business requirements, ensuring efficient
+                    and scalable solutions.
+                  </p>
+                </div>
+              </div>
+              <!-- ========Service Item Start======= -->
+              <!-- ========Service Item Start======= -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-palette"></i>
+                  </div>
+                  <h4>Web Design</h4>
+                  <p>
+                    I create visually appealing and intuitive web designs that
+                    enhance user experience and deliver a strong brand identity.
+                  </p>
+                </div>
+              </div>
+              <!-- ========Service Item Start======= -->
+              <!-- ========Service Item Start======= -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-database"></i>
+                  </div>
+                  <h4>Database Management</h4>
+                  <p>
+                    I specialize in efficient database management solutions,
+                    ensuring data integrity and optimal performance for your
+                    applications.
+                  </p>
+                </div>
+              </div>
+              <!-- ========Service Item Start======= -->
+              <!-- ========Service Item Start======= -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-cogs"></i>
+                  </div>
+                  <h4>Software Integration</h4>
+                  <p>
+                    I provide seamless software integration services to connect
+                    different systems and streamline your business processes.
+                  </p>
+                </div>
+              </div>
+              <!-- ========Service Item Start======= -->
+            </div>
           </div>
-          <h4>Mobile App Development</h4>
-          <p>
-            I specialize in creating user-friendly and innovative mobile applications for Android and iOS platforms.
-          </p>
-        </div>
-      </div>
-      <!-- ========Service Item Start======= -->
-      <!-- ========Service Item Start======= -->
-      <div class="service-item padd-15">
-        <div class="service-item-inner">
-          <div class="icon">
-            <i class="fa fa-laptop-code"></i>
-          </div>
-          <h4>Web Development</h4>
-          <p>
-            I build dynamic and responsive websites using the latest web technologies to help businesses establish a strong online presence.
-          </p>
-        </div>
-      </div>
-      <!-- ========Service Item Start======= -->
-      <!-- ========Service Item Start======= -->
-      <div class="service-item padd-15">
-        <div class="service-item-inner">
-          <div class="icon">
-            <i class="fa fa-code"></i>
-          </div>
-          <h4>Software Development</h4>
-          <p>
-            I offer custom software development services tailored to meet your unique business requirements, ensuring efficient and scalable solutions.
-          </p>
-        </div>
-      </div>
-      <!-- ========Service Item Start======= -->
-      <!-- ========Service Item Start======= -->
-      <div class="service-item padd-15">
-        <div class="service-item-inner">
-          <div class="icon">
-            <i class="fa fa-palette"></i>
-          </div>
-          <h4>Web Design</h4>
-          <p>
-            I create visually appealing and intuitive web designs that enhance user experience and deliver a strong brand identity.
-          </p>
-        </div>
-      </div>
-      <!-- ========Service Item Start======= -->
-      <!-- ========Service Item Start======= -->
-      <div class="service-item padd-15">
-        <div class="service-item-inner">
-          <div class="icon">
-            <i class="fa fa-database"></i>
-          </div>
-          <h4>Database Management</h4>
-          <p>
-            I specialize in efficient database management solutions, ensuring data integrity and optimal performance for your applications.
-          </p>
-        </div>
-      </div>
-      <!-- ========Service Item Start======= -->
-      <!-- ========Service Item Start======= -->
-      <div class="service-item padd-15">
-        <div class="service-item-inner">
-          <div class="icon">
-            <i class="fa fa-cogs"></i>
-          </div>
-          <h4>Software Integration</h4>
-          <p>
-            I provide seamless software integration services to connect different systems and streamline your business processes.
-          </p>
-        </div>
-      </div>
-      <!-- ========Service Item Start======= -->
-    </div>
-  </div>
-</section>
-<!-- ===========Services Section end================= -->
+        </section>
+        <!-- ===========Services Section end================= -->
 
         <!-- =============Portfolio Section Start============ -->
         <section class="portfolio section">
@@ -439,6 +458,7 @@
                         type="email"
                         class="form-control"
                         placeholder="Email"
+                        required
                       />
                     </div>
                   </div>
@@ -450,6 +470,7 @@
                         type="text"
                         class="form-control"
                         placeholder="Subject"
+                        required
                       />
                     </div>
                   </div>
@@ -460,7 +481,6 @@
                       <textarea
                         name=""
                         class="form-control"
-                        id=""
                         placeholder="Message"
                       ></textarea>
                     </div>
@@ -468,7 +488,13 @@
                 </div>
                 <div class="row">
                   <div class="form-item col-12 padd-15">
-                    <button type="submit" class="btn">Send Message</button>
+                    <button
+                      type="submit"
+                      class="btn"
+                      onclick="setClick=(e)=>{e.preventDefault}"
+                    >
+                      Send Message
+                    </button>
                   </div>
                 </div>
               </div>
@@ -478,19 +504,51 @@
         </section>
         <!-- ===========Contacts Section End============ -->
         <!-- ===========Social Icons Start =========== -->
-        <section class="social-icons section">
-          <div class="container">
-            <div class="row">
-              <div class="section-title">
-                <h2>Social Media Handles</h2>
-              </div>
-            </div>
+        <footer class="footer-item padd-15">
+          <div class="logo">
+            <ul>
+              <li>
+                <i class="fa fa-" aria-hidden="true"></i>
+              </li>
+            </ul>
           </div>
-        </section>
+        </footer>
         <!-- ===========Social Icons Start =========== -->
       </div>
     </div>
+    <!-- ===========Main Content End =========== -->
+    <!--========= style Switcher start============== -->
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-skin"></i>
+      </div>
+      <div class="day-night si-icon">
+        <i class="fas fa-moon"></i>
+      </div>
+      <h4>Theme colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+    <!--========= style Switcher end ============== -->
+    <!-- <i class="fa fa-mobile-alt"></i> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"
+      integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./script.js">
+       const navToggler = document.querySelector('.nav-toggler');
+      const mainNav = document.querySelector('.main-nav');
 
-    <script src="script.js"></script>
+      navToggler.addEventListener('click', () => {
+        mainNav.classList.toggle('open');
+      });
+    </script>
   </body>
 </html>

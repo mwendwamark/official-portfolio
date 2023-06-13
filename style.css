@@ -413,6 +413,7 @@ h3.my-profession {
   top: -40px;
   font-weight: 400;
   line-height: 40px;
+  border-radius: 50%;
 }
 .education,
 .experience {
